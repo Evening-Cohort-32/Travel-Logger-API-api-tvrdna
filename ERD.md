@@ -23,6 +23,8 @@ LOG {
 
 RECOMMENDATION {
     int id PK
+    string name
+    int cityId FK
     int userId FK
     varchar recBody
 }
